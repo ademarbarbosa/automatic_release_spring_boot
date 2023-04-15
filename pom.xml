@@ -68,7 +68,8 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <tagNameFormat>@{project.version}</tagNameFormat>
                     <preparationGoals>clean install</preparationGoals>
-                    <pushChanges>false</pushChanges>
+                    <pushChanges>true</pushChanges>
+                    <branchName>@{project.version}</branchName>
                     <releaseProfiles>release</releaseProfiles>
                     <goals>deploy</goals>
                     <arguments>-DskipTests=true</arguments>
