@@ -73,6 +73,7 @@
                     <releaseProfiles>release</releaseProfiles>
                     <goals>deploy</goals>
                     <arguments>-DskipTests=true</arguments>
+                    <username>ademarbarbosa</username>
                 </configuration>
             </plugin>
         </plugins>
